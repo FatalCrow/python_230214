@@ -31,7 +31,7 @@ def intersect(prelist, postlist):
     result = []
     for x in prelist:
         if x in postlist and x not in result: 
-            #in = x의값이랑 postlist의 값이랑 일치하는 단어가 있는지 확인 (for문으로 첫번쨰 반복할때 H, 두번째 A, 세번째 M수행될때마다 SPAM이랑 비교)
+            #if x in postlist = x의값이랑 postlist의 값이랑 일치하는 단어가 있는지 확인 (for문으로 첫번쨰 반복할때 H, 두번째 A, 세번째 M수행될때마다 SPAM이랑 비교)
             #not in = x in postlist 조건이 만족 되고 result값에 x값이 없으면 조건을 만족
             result.append(x)
     return result
