@@ -47,7 +47,7 @@ for i in iterL:
 
 
 print("--함수 필터링--")
-def getBiggerThan20(i)
+def getBiggerThan20(i):
     return i > 20
 
 lst = [10,25,30]
