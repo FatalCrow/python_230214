@@ -54,6 +54,3 @@ lst = [10,25,30]
 iterL = filter(getBiggerThan20, lst)
 for i in iterL:
     print(i)
-
-print("aaa")
-print("aaa")
