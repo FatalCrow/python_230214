@@ -36,6 +36,7 @@ def userURIBuilder(server, port, **user):
     strURL = "http://" + server + ":" + port + "/?"
     for key in user.keys():
         strURL += key + "=" + user[key] + "&"
+        # += : strURL 변수에 key + "=" + user[key] + "&" 를 붙이고 strURL에 저장하기 위해 사용
     return strURL
 
 #호출
