@@ -6,7 +6,7 @@ def times(a,b):
 #2)함수를 호출
 print(times(3,4))
 
-#함수를 정의
+##함수를 정의
 def swap(x,y):
     return y,x
 
