@@ -7,6 +7,7 @@ def intersect(*ar):
     return reduce(__intersectSC,ar)
 
 def __intersectSC(listX, listY):
+#__intersectSC의 __는 숨기라는 표시라서 dir() 할경우 해당 함수는 보이지 않음
     setList = []
     for x in listX:
         if x in listY:
@@ -29,3 +30,5 @@ def union(*ar):
             if not x in setList:
                 setList.append(x)
     return setList
+
+print(difference("type", "typh"))
